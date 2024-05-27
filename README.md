@@ -16,5 +16,6 @@ Learning Flask by creating a web based application using Flask Tutorials on Yout
     - As there was redundancy in the basic code structure for  botht he home and about pages, we created a common template for both.
     - Then, we imported them in the respective html pages using {% extends %}.
     - To add a bitt more style to the page, we imported bootstrap files into the layout.html page. This includes the Bootstarp CSS added in the head section and then the optional JS part added at the end of the body section.
+    - To add style and css files  in the pages, we created a new folder called static. This is because the all the js and css files need to be stored in that folder to be used. Later, using url_for from the flask library, we import them main.css file into the layout.html page.
     - After that, we added the navigation bar at the top of the window for Login, Resgister, Home and About in the bode section. 
     - Later, we updated the "block content" block and added another sidebar to the page. With the updated "block content", the details about the all the articles we have is presented in a more neat way. 
